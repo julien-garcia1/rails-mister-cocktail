@@ -1,3 +1,20 @@
 // Place all the styles related to the cocktails controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.ingredients {
+  background: #FCF3DD;
+  padding: 12px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 12px #DEDEDE;
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+
+.delete-button {
+  color: red;
+  text-decoration: none;
+  &:hover {
+    color: red;
+  }
+}

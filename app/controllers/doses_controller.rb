@@ -8,10 +8,9 @@ class DosesController < ApplicationController
 
   def destroy
     @dose = Dose.find(params[:id])
-    @cocktail = @dose.cocktail
     @dose.destroy
     # no need for app/views/doses/destroy.html.erb because of redirect_to
-    redirect_to cocktails_url
+    redirect_to cocktail_path(@dose.cocktail)
   end
 
   def create

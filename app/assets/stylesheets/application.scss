@@ -11,3 +11,19 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+@import "cocktails";
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.back-button {
+  margin-top: 15px;
+}
+
+a:hover {
+  text-decoration: none;
+}
